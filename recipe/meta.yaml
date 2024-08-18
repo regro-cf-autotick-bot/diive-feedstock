@@ -1,5 +1,5 @@
 {% set name = "diive" %}
-{% set version = "0.76.2" %}
+{% set version = "0.78.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/holukas/diive/archive/v{{ version }}.tar.gz
-  sha256: 588c07c3bbf459f969e51406822e28628098dcfbba995d4a0822604f8dff3eec
+  sha256: 5075e6def6297a2f34df0e3e3a8e1370e47b121af58f44cb77d18859c89d5a1d
 
 build:
   noarch: python
